@@ -1,4 +1,4 @@
-//use client
+"use client"
 
 import { FaCartShopping} from "react-icons/fa6"
 import { GiCoffeeBeans } from "react-icons/gi"

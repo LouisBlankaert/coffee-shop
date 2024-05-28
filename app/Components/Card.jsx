@@ -31,7 +31,7 @@ export default function Card({item}) {
         </p>
         <p className="text-[14px] text-gray-400">{item.desc}</p>
         <p className="bg-orange-400 text-white font-bold mt-2 absolute top-2 right-2 p-4 rounded-full">{item.price}€</p>
-        <button onClick={handleAddToCart} className="self-end bg-orange-400 hover:bg-orange-600 rounded-md text-white p-2">Ajouter au panier</button>
+        <button onClick={handleAddToCart} className="bg-orange-400 hover:bg-orange-600 rounded-md text-white p-2">Ajouter au panier</button>
     </div>
   )
 }

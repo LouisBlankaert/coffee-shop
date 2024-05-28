@@ -55,6 +55,7 @@ const CartModal = ({ cartModalOpen, handleCartModal }) => {
         {products.length > 0 && (
           <div className="mt-4">
             <p className="text-lg font-bold text-gray-700">Total: {totalPrice.toFixed(2)}€</p>
+            <button className="mt-5 bg-orange-400 hover:bg-orange-600 rounded-md text-white p-2">Proceder de paiement</button>
           </div>
         )}
       </div>

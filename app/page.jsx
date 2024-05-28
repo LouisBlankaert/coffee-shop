@@ -33,6 +33,7 @@ export default function Home() {
 
   return (
     <>
+    <ToastContainer/>
       <Header />
       <Galery dataProducts={dataProducts} />
       <Footer />
